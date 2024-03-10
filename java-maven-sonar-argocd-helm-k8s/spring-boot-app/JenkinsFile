@@ -53,7 +53,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "argocd-app1"
+            GIT_REPO_NAME = "Jenkins_ArgoCD_Sonarcube_Java_Webapp_K8s"
             GIT_USER_NAME = "girijeshrichdocker02"
         }
         steps {
