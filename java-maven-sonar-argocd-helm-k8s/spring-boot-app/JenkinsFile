@@ -38,7 +38,6 @@ pipeline {
 
         
         DOCKER_IMAGE = "girijeshrichdocker02/argocd-app1:${BUILD_NUMBER}"
-
         REGISTRY_CREDENTIALS = credentials('docker-cred')
       }
       steps {
